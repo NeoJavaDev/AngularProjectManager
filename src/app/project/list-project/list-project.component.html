@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+
+    <h2> Projects </h2>
+    <div class="card-action">
+      <a>Add Project</a>
+    </div>
+
+    <div *ngFor="let project of projects" class="col m6 s12">
+
+      <div class="card horizontal" (click)="goToProject(project)">
+
+        <div class="card-image" >
+
+        </div>
+
+
+
+        <div class="card-stacked">
+          <div class="card-content" class="center">
+            <div>
+              <strong> {{ project.name | uppercase }} </strong>
+              - id : {{ project.id }}
+            </div>
+
+            <div>
+              <p>
+                <br> Total costs : {{ project.cost | currency:'€' :true:'1.0' }}
+                <br> Revenue : {{ project.revenue | currency:'€' :true:'1.0' }}
+                <br> <strong> Profit : {{project.revenue - project.cost | currency:'€'
+                  :true:'1.0' }} </strong>
+              </p>
+            </div>
+
+            <div>
+              <p>
+                <br> Start Date : {{ project.startDate | date }}
+                <br> End Date : {{ project.endDate | date }}
+              </p>
+            </div>
+
+            <div class="card-action">
+              <a href="project-manager/project/edit/{{project.id}}">Edit</a>
+              <a>Delete</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+
+
+# Miscellaneous
+/.angular/cache/
+.angular/cache/
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
