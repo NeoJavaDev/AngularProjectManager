@@ -7,8 +7,7 @@ import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-list-user',
-  templateUrl: './list-user.component.html',
-  styleUrls: ['./list-user.component.scss'],
+  templateUrl: './list-user.component.html'
 })
 export class ListUserComponent {
   public users: User[] | undefined;

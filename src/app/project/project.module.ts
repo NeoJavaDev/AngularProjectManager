@@ -17,7 +17,7 @@ const routes: Routes = [
   declarations: [
     EditProjectComponent,
     FocusProjectComponent,
-    ListProjectComponent
+    ListProjectComponent,
   ],
   imports: [CommonModule, RouterModule.forChild(routes),FormsModule,NgChartsModule,]
 })

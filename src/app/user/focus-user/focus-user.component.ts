@@ -5,8 +5,7 @@ import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-focus-user',
-  templateUrl: './focus-user.component.html',
-  styleUrls: ['./focus-user.component.scss']
+  templateUrl: './focus-user.component.html'
 })
 export class FocusUserComponent implements OnInit{
 

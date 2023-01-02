@@ -6,8 +6,7 @@ import { ProjectService } from '../project.service';
 
 @Component({
   selector: 'app-focus-project',
-  templateUrl: './focus-project.component.html',
-  styleUrls: ['./focus-project.component.scss']
+  templateUrl: './focus-project.component.html'
 })
 export class FocusProjectComponent implements OnInit {
 

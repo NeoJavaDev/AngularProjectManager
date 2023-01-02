@@ -5,8 +5,7 @@ import { TaskService } from '../task.service';
 
 @Component({
   selector: 'app-focus-task',
-  templateUrl: './focus-task.component.html',
-  styleUrls: ['./focus-task.component.scss']
+  templateUrl: './focus-task.component.html'
 })
 export class FocusTaskComponent implements OnInit {
 
