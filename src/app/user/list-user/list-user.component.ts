@@ -1,7 +1,6 @@
 import { HttpErrorResponse } from '@angular/common/http';
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { Project } from 'src/app/project/model/project';
 import { User } from '../model/user';
 import { UserService } from '../user.service';
 
